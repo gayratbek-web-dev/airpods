@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: arial;
+  color: white;
+}
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+.wrapp {
+  background-color: #151515;
+}
+
+/* navbar */
+.navbar {
+  background: #282828;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
+.navbar-menu,
+.navbar-icon {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar-link {
+  font-size: 20px;
+  font-weight: 700;
+}
+.fa-solid {
+  font-size: 20px;
+}
+/* navbar end */
+/* header */
+.header {
+  height: 635px;
+  background: url(./img/header-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+}
+.header h1 {
+  font-size: 100px;
+  font-weight: 400;
+  font-style: italic;
+}
+.header button {
+  font-size: 20px;
+  padding: 13px 14px;
+  background-color: #fff;
+  color: #171718;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.fa-arrow-up-right-from-square {
+  color: #171718;
+  font-size: 15px;
+}
+/* header end */
+
+/* airpods */
+.airpods {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.airpods-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.airpods-content p {
+  font-size: 22px;
+  line-height: 27px;
+}
+.airpods2 p {
+  max-width: 540px;
+}
+.airpods3 p {
+  max-width: 333px;
+}
+.airpods3 .right-text {
+  text-align: right;
+}
+/* airpods end */
+/* phones */
+.phones-content {
+  display: flex;
+  justify-content: space-between;
+}
+.phones-card {
+  background-color: white;
+  width: 255px;
+  padding: 15px 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+}
+.phones-card h4 {
+  color: black;
+  font-size: 20px;
+}
+.phones-card p {
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.phones-card button {
+  padding: 7px 57px;
+  background-color: #151515;
+  font-size: 16px;
+  border: none;
+  margin-top: 10px;
+}
+/* phones end */
+/* footer */
+.footer {
+  margin-top: 55px;
+  padding: 81px 0;
+}
+/* footer end */
